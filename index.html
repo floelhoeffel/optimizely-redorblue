@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    
+<head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +10,30 @@
 
     <script src="https://cdn.optimizely.com/js/10467324025.js"></script>
 
+    <style>
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+
 </head>
+
 <body>
     <h1>Choose wisely:</h1>
-    <a class="cta" href="clicked.html">Red</a>
-    
+    <div class="red">
+        <a class="cta red" href="clicked.html">Red</a>
+        <a class="cta blue" href="clicked.html">Blue</a>
+    </div>
+    <div class="blue">
+        <a class="cta blue" href="clicked.html">Blue</a>
+        <a class="cta red" href="clicked.html">Red</a>
+    </div>
+
+
 </body>
+
 </html>
